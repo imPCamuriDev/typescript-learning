@@ -1,0 +1,25 @@
+Index.ts
+Tuplas.ts
+Intersections.ts
+Enums.ts
+TypeAssertions.ts
+Functions.ts
+Types.ts
+PropriedadesPossivelmenteNulas.ts
+Unions.ts
+Interfaces.ts
+Classes.ts
+SubClasses.ts
+Generics.ts
+
+
+Ter node.js instalado (baixar pelo site oficial)
+Abrir seu cmd e executar esses dois comandos:
+npm install -g typescript
+npm install -g ts-node
+
+"-g" baixa globalmente na sua máquina, ou seja, você está baixando o suporte para TypeScript e o ts-node que executará seu código TypeScript
+
+Depois crie seu projeto (caso não esteja usando mais esse) e execute tsc --init e configure o seu tsconfig.json do jeito que quiser (No final do
+arquivo vou disponibilizar o vídeo onde ele fala algumas coisas uteis sobre essa parte)
+E pronto! Tudo pronto para o seu uso, bons estudos a todos!

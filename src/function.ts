@@ -21,6 +21,33 @@
 
 const sum = (a: number, b: number): number => {
   return a + b;
-}
+};
 sum(1, 2); // 3
 // sum("1", 2);  Argument of type 'string' is not assignable to parameter of type 'number'.
+
+const sum2 = (a: number, b: number) => {
+  // Note que atrás do => não tem o tipo de retorno, isso significa que o TypeScript
+  // vai inferir o tipo de retorno da função com base no que ela retorna no final da função.
+  return a + b;
+};
+
+const sum3 = (a: number, b: number): string => {
+  return (a + b).toString(); // O TypeScript vai reclamar se você tentar retornar um número ao invés de uma string, por isso a conversão para string.
+  // Logo, colocando o mouse em cima do nome da função sum3, você verá que o TypeScript vai inferir que o retorno é uma string.
+};
+
+const sum4 = (a: number, b: number): number | string => {
+  // Também conseguimos usar Intersection Types
+  return a + b;
+};
+
+const log = (message: string): void => {
+  // void é o tipo de retorno que não retorna nada
+  console.log(message);
+};
+
+const log2 = (message: string) => {
+  // Caso não defina void (: void) o TypeScript vai inferir que o retorno
+  // é void desde que no final da sua function não tenha um return
+  console.log(message);
+};
