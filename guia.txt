@@ -23,3 +23,6 @@ npm install -g ts-node
 Depois crie seu projeto (caso não esteja usando mais esse) e execute tsc --init e configure o seu tsconfig.json do jeito que quiser (No final do
 arquivo vou disponibilizar o vídeo onde ele fala algumas coisas uteis sobre essa parte)
 E pronto! Tudo pronto para o seu uso, bons estudos a todos!
+
+Vídeo citado neste arquivo e em alguns trechos de comentário nos códigos:
+https://www.youtube.com/watch?v=ppDsxbUNtNQ
