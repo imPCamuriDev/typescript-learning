@@ -1,13 +1,13 @@
 "use strict";
-class Student {
-    constructor(name, age, course) {
-        this.name = name;
-        this.age = age;
-        this.course = course;
-    }
-    greet() {
-        return `Olá, meu nome é ${this.name}, tenho ${this.age} anos e estudo ${this.course}.`;
-    }
-}
-const student = new Student("João", 20, "Engenharia");
-console.log(student.greet());
+let age = 20;
+const PersonName = "Juan";
+const isActive = true;
+let something = "Hola";
+const nothing = undefined;
+const nothing2 = null;
+const numbers = [1, 2, 3, 4, 5];
+const numbers2 = [1, 2, 3, 4, 5];
+const booleanArray = [true, false, true];
+const booleanArray2 = [true, false, true];
+const stringArray = ["a", "b", "c"];
+const stringArray2 = ["a", "b", "c"];
